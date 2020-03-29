@@ -7,9 +7,9 @@ import (
 )
 
 
-type calc struct{}
+type Calc struct{}
 
-func (calc) Operate(value1 int, value2 int, operator string) int {
+func (Calc) Operate(value1 int, value2 int, operator string) int {
 
 	switch operator {
 	case "+":
